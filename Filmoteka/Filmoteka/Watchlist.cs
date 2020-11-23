@@ -56,8 +56,19 @@ namespace Filmoteka
         /// </summary>
         /// <returns></returns>
         public double DajSrednjuOcjenuSvihFilmova()
-        {
-            throw new NotImplementedException();
+        {   
+            int count = this.filmovi.Count;
+            if(count == 0) {
+                throw new InvalidProgramException();
+            }
+
+            int sum = 0;
+            for(int i = 0; i < count; i++) {
+                sum += this.filmovi[i].Ocjena;
+            }
+
+            return ( sum / count );
+
         }
 
         #endregion

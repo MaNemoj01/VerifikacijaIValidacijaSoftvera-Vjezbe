@@ -110,7 +110,13 @@ namespace Filmoteka
         /// <returns></returns>
         public List<Film> DajSveFilmoveSGlumcima(List<string> glumci)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            if(glumci.Count==0 || filmovi.Count==0)throw new Exception();
+            List <Film> f = new List<Film>();
+            for(int i = 0; i < filmovi.Count;i++){
+                if(filmovi[i].Glumci.Contains(glumci))f.Add(filmovi[i]);
+            }
+            return f;
         }
 
         public void DodajNastavak(Film film, double rating, bool istiGlumci, List<string> noviGlumci = null)

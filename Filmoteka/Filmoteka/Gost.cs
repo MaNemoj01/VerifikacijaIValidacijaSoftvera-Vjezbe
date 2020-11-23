@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Linq;
+using System.Text.RegularExpressions;
 
 namespace Filmoteka
 {
@@ -108,8 +109,16 @@ namespace Filmoteka
         /// <param name="prezime"></param>
         /// <returns></returns>
         public static Tuple<string, string> AutomatskiKorisničkiPodaci(string ime, string prezime)
-        {
-            throw new NotImplementedException();
+        {   
+            if(ime && prezime && Regex.IsMatch(ime, @"^[a-zA-Z]+$") && Regex.IsMatch(prezime, @"^[a-zA-Z]+$")) {
+                string prvaDvaImena = ime.Substring(0,2);
+                string ostatakImena = ime.Substring(2);
+                string korisnickoIme = prvaDvaImena + prezime + ostatakImena;
+                string password = prvaDvaImena + prezime + ostatakImena;
+    
+                return (korisnickoIme.ToLower(), password.ToUpper();
+            } 
+            throw new InvalidProgramException;
         }
 
         #endregion
