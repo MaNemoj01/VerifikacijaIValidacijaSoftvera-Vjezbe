@@ -54,10 +54,11 @@ namespace Filmoteka
         /// <param name="noviRok"></param>
         public void ProdužiRok(DateTime noviRok)
         {
-            int brojMjeseci = ((this.rokPretplate.Year - noviRok.Year) * 12) + this.rokPretplate.Month - noviRok.Month;
+            // int brojMjeseci = Math.Abs(((this.rokPretplate.Year - noviRok.Year) * 12) + this.rokPretplate.Month - noviRok.Month);
+            double brojMjeseci = Math.Abs(this.rokPretplate.Subtract(noviRok).Days / (365.25 / 12));
             DateTime now = DateTime.Now;
-            if (noviRok.Date <= now.Date) throw new Exception();
-            else if(brojMjeseci<1 || brojMjeseci>6) throw new Exception();
+            if (now <= this.rokPretplate) throw new ArgumentException();
+            else if(brojMjeseci<1 || brojMjeseci>=6) throw new ArgumentException();
 
             else
                 this.rokPretplate = noviRok;

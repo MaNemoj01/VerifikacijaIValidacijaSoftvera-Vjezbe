@@ -8,13 +8,19 @@ namespace Unit_Testovi
     [TestClass]
     public class NoviTestovi
     {
+        public class Reziser : IReziser
+        {
+            public bool DaLiJeReziraoFilm(Film f)
+            {
+                return true;
+            }
+        }
         #region Zamjenski Objekti
 
         [TestMethod]
         public void TestZamjenskiObjekat()
         {
             Film film = new Film("Need For Speed", 3.5, Zanr.Akcija, new List<string>() { "Aaron Paul", "Dominic Cooper" });
-
             var filmoteka = new Filmoteka.Filmoteka();
             filmoteka.Filmovi.Add(film);
 

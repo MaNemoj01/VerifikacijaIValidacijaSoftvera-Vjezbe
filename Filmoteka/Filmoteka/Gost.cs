@@ -109,16 +109,17 @@ namespace Filmoteka
         /// <param name="prezime"></param>
         /// <returns></returns>
         public static Tuple<string, string> AutomatskiKorisničkiPodaci(string ime, string prezime)
-        {   
-            if(ime && prezime && Regex.IsMatch(ime, @"^[a-zA-Z]+$") && Regex.IsMatch(prezime, @"^[a-zA-Z]+$")) {
-                string prvaDvaImena = ime.Substring(0,2);
+        {
+            if (Regex.IsMatch(ime, @"^[a-zA-Z]+$") && Regex.IsMatch(prezime, @"^[a-zA-Z]+$"))
+            {
+                string prvaDvaImena = ime.Substring(0, 2);
                 string ostatakImena = ime.Substring(2);
                 string korisnickoIme = prvaDvaImena + prezime + ostatakImena;
                 string password = prvaDvaImena + prezime + ostatakImena;
-    
-                return (korisnickoIme.ToLower(), password.ToUpper();
-            } 
-            throw new InvalidProgramException;
+                if (korisnickoIme.Length > 20) korisnickoIme = korisnickoIme.Substring(0, 19);
+                return new Tuple<string, string>(korisnickoIme.ToLower(), password.ToUpper());
+            }
+            throw new InvalidProgramException();
         }
 
         #endregion

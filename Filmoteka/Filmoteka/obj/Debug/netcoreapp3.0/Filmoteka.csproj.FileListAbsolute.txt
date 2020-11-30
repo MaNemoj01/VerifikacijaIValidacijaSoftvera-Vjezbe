@@ -1,0 +1,4 @@
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.0\Filmoteka.csprojAssemblyReference.cache
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.0\Filmoteka.AssemblyInfoInputs.cache
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.0\Filmoteka.AssemblyInfo.cs
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.0\Filmoteka.csproj.CoreCompileInputs.cache

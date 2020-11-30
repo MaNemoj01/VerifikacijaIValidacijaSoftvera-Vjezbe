@@ -15,3 +15,12 @@ D:\D\Ehlimana\Documents\VVS\Zadaća br. 2 (Unit Testiranje)\Grupa RS-1\Filmoteka
 D:\D\Ehlimana\Documents\VVS\Zadaća br. 2 (Unit Testiranje)\Grupa RS-1\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.csproj.CoreCompileInputs.cache
 D:\D\Ehlimana\Documents\VVS\Zadaća br. 2 (Unit Testiranje)\Grupa RS-1\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.dll
 D:\D\Ehlimana\Documents\VVS\Zadaća br. 2 (Unit Testiranje)\Grupa RS-1\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.pdb
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.csprojAssemblyReference.cache
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.AssemblyInfoInputs.cache
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.AssemblyInfo.cs
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.csproj.CoreCompileInputs.cache
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.dll
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\obj\Debug\netcoreapp3.1\Filmoteka.pdb
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\bin\Debug\netcoreapp3.1\Filmoteka.deps.json
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\bin\Debug\netcoreapp3.1\Filmoteka.dll
+C:\Users\MaNemoj\source\repos\MaNemoj01\Filmoteka\Filmoteka\bin\Debug\netcoreapp3.1\Filmoteka.pdb
